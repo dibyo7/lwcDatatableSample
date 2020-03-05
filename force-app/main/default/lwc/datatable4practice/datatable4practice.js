@@ -20,7 +20,7 @@ export default class Datatable4practice extends LightningElement {
     @track columns = COLS;
     @track draftValues = [];
 
-    @wire(getContactList)
+    @wire(getContactList) // test
     contact;
 
     handleSave(event) {
