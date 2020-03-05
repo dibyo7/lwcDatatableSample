@@ -1,0 +1,16 @@
+<apex:page >
+  <script>
+      
+      var fullname = 'Pradhan';
+      
+      function foobar(){
+          var fullname = 'Dibyo';
+          console.log(fullname);
+      }
+      
+      foobar();
+      console.log(fullname);
+      
+      
+  </script>
+</apex:page>

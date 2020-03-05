@@ -1,0 +1,39 @@
+{
+    
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/dataTable01": [
+                "dataTable01/dataTable01.js"
+            ],
+            "c/datatable4practice": [
+                "datatable4practice/datatable4practice.js"
+            ],
+            "c/datatableLwc": [
+                "datatableLwc/datatableLwc.js"
+            ],
+            "c/helloExpression": [
+                "helloExpression/helloExpression.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/lightningDataTable": [
+                "lightningDataTable/lightningDataTable.js"
+            ],
+            "c/attributesLWC": [
+                "attributesLWC/attributesLWC.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
